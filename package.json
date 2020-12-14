@@ -1,0 +1,33 @@
+{
+  "name": "js_band_internship",
+  "version": "1.0.0",
+  "description": "Ciklum University: JS Band Internship",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve ./docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciklum-digital/internship.git"
+  },
+  "keywords": [
+    "Javascipt",
+    "Ciklum",
+    "internship"
+  ],
+  "author": "Bohdan Pohasii bpo@ciklum.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ciklum-digital/internship/issues"
+  },
+  "homepage": "https://ciklum-digital.github.io/internship/",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
