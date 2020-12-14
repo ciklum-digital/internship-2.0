@@ -6,11 +6,6 @@
     <h3 class="mentor__name">Aleksey Grinevich</h3>  
     <p class="mentor__desc">Javascript Technical Lead</p>
   </li>
-    <li class="mentor">
-      <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship/master/docs/assets/images/mentors/vlads.jpg" alt="Vladyslav Siniavin" /></div>
-      <h3 class="mentor__name">Vladyslav Siniavin</h3>  
-      <p class="mentor__desc">Head of ia applications</p>
-    </li>
   <li class="mentor">
     <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship/master/docs/assets/images/mentors/bost.jpg" alt="Borys Strynzha" /></div>
     <h3 class="mentor__name">Borys Strynzha</h3>  

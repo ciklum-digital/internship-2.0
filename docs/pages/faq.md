@@ -1,29 +1,29 @@
-# FAQ
+# FAQ [PENDING]
 
-> When the deadline of test task?
+When is the deadline of test task?
 
-Answer: `03 November 2019`
+>  
 
-> Whats next?
+I have completed test task. What is next?
 
-Answer: We will check your work, define the best and conduct small HR interview with best of you. After HR screening we will define internship participants final list
+> We will review all of the test tasks, define the best and conduct a brief HR interview with best of you. After HR screening we will define internship participants final list.
 
-> Will we have homework after lectures?
+Will we have homework after lectures?
 
-Answer: Yes, And we will review it and add to your score
+> Yes, we will review it and add the result of each homework to your total score.
 
-> Will we have final task?
+Will we have final task?
 
-Answer: Yes, it will combine all your experience  
+> Yes, you will get the final task after all of the lectures and homework.  
 
-> How you define a leaders?
+How do you define a leaders?
 
-Answer: Based on all your practice work (including test task, home works, final task) and you soft skills  
+> Based on all factors (test task score, homeworks score, final task score) and you soft skills.
 
-> How many lectures will we have?
+How many lectures will we have?
 
-Answer: Approximately `8 lectures` 
+> 8 lectures.
 
-> Can I use React / Angular / other framework ?
+Can I use React / Angular / other framework for a test task?
 
-Answer: No, only Javascript for now 
+> No, only Javascript is allowed to be used to implement a test task.

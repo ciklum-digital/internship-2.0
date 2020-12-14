@@ -1,7 +1,7 @@
 {
-  "name": "js_band_internship",
+  "name": "js_band_internship_2.0",
   "version": "1.0.0",
-  "description": "Ciklum University: JS Band Internship",
+  "description": "Ciklum University: JS Band Internship 2.0",
   "main": "docs/index.html",
   "directories": {
     "doc": "docs"
