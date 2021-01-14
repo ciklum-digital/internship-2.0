@@ -5,6 +5,8 @@
   --text-color-base-secondary: #ffffff;
   --text-color-secondary: #3b3b3b;
   --text-color-tertiary: #81818e;
+  --accent-color: #e4be22;
+  --accent-color-bright: #fcd63a;
 }
 
 body {
@@ -22,6 +24,10 @@ a {
   transition: all 0.3s linear;
 }
 
+.anchor span, .markdown-section h3 {
+  color: var(--accent-color);
+}
+
 .cover .github-corner {
   display: none;
 }
@@ -35,7 +41,8 @@ section.cover {
   padding-bottom: 112px;
   height: auto;
   min-height: 100vh;
-  background: var(--theme-color-bg) !important;
+  background-image: url("./images/js-main-min.png") !important;
+  background-size: cover !important;
 }
 section.cover img {
   margin-top: 50px;
@@ -158,7 +165,7 @@ section.cover.show ~ .sidebar-toggle {
 
 .markdown-section code {
   background-color: var(--theme-color-bg);
-  color: var(--text-color-base-secondary);
+  color: var(--accent-color-bright);
 }
 
 .markdown-section a {

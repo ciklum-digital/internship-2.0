@@ -1,4 +1,4 @@
-# Tech task [PENDING]
+# Tech task
 ## Objectives
 Create a simple meeting planning calendar for a meeting room in your office:
 - Display meetings planned;

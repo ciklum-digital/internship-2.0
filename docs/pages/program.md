@@ -1,4 +1,4 @@
-# Program [PENDING]
+# Program
 ## Javascript
 >#### Basics of Javascript
 
@@ -56,12 +56,6 @@
 - Eslint
 - Jest
 - Sonar
-
-## CI/CD
->#### Development
-
-- Development processes
-- Branching strategy
 
 >#### Testing
 
