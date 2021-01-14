@@ -1,8 +1,8 @@
-# FAQ [PENDING]
+# FAQ
 
 When is the deadline of test task?
 
->  
+>  7th of February(inclusive).
 
 I have completed test task. What is next?
 
