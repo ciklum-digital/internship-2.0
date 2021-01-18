@@ -2,7 +2,7 @@
 
 ![alt text](../assets/images/js-band-cover.png)
 
-Ciklum is glad to announce the Ciklum University: JS Band Internship 2.0 program opening in Kharkiv!
+Ciklum is glad to announce the Ciklum JavaScript Internship program opening in Kharkiv!
 
 We will be happy to offer a position in Ciklum Digital JS Team to those who successfully finish the program.
 
