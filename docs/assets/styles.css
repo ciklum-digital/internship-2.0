@@ -104,6 +104,11 @@ section.cover.show ~ .sidebar-toggle {
   z-index: 5;
 }
 
+.cover-main h1, 
+.cever-main h2 {
+  color: var(--theme-color);
+}
+
 .cover-main .buttons {
   margin-top: 100px;
   width: 100%;
