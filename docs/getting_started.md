@@ -2,7 +2,7 @@
 
 ![alt text](./assets/images/join-us.png)
 
-Ciklum is glad to welcome you as participants of the **Ciklum University: JS Band Internship 2.0** program opening in Kharkiv!
+Ciklum is glad to welcome you as participants of the **Ciklum JavaScript Internship** program opening in Kharkiv!
 
 Next steps you should know about:
 
