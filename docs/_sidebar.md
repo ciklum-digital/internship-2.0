@@ -4,7 +4,7 @@
 - [Test task](pages/task.md)
 <!-- - [Task](pages/task.md) -->
 <!-- - [Lectures](pages/lectures.md) -->
-<!-- - [Homework](pages/homework.md) -->
+- [Homework](pages/homework.md)
 <!-- - [Final task](pages/finaltask.md) -->
 - [Mentors](pages/mentors.md)
 <!-- - [Contacts](pages/contacts.md) -->
