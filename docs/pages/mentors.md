@@ -41,4 +41,9 @@
     <h3 class="mentor__name">Roman Vabishchevych</h3>  
     <p class="mentor__desc">Senior JavaScript Developer</p>
   </li>
+  <li class="mentor">
+    <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/antkoz.jpeg" alt="Anton Kozachko" /></div>
+    <h3 class="mentor__name">Anton Kozachko</h3>  
+    <p class="mentor__desc">Senior JavaScript Developer</p>
+  </li>
 </ul>
