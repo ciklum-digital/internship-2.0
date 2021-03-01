@@ -32,13 +32,13 @@
     <p class="mentor__desc">Senior JavaScript Developer</p>
   </li>
   <li class="mentor">
-    <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/sbogd.jpg" alt="Sergii Bogdaniuk" /></div>
-    <h3 class="mentor__name">Sergii Bogdaniuk</h3>  
-    <p class="mentor__desc">Senior JavaScript Developer</p>
-  </li>
-  <li class="mentor">
     <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/vpos.jpg" alt="Vasyl Posmitnyi" /></div>
     <h3 class="mentor__name">Vasyl Posmitnyi</h3>
     <p class="mentor__desc">Javascript Technical Lead</p>
+  </li>
+  <li class="mentor">
+    <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/romv.jpeg" alt="Roman Vabishchevych" /></div>
+    <h3 class="mentor__name">Roman Vabishchevych</h3>  
+    <p class="mentor__desc">Senior JavaScript Developer</p>
   </li>
 </ul>
