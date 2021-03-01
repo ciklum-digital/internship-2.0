@@ -57,4 +57,4 @@ At this moment, you have an application that can interact with the backend. You 
 - Should be all possible error in API processed via a decorator approach
 
 ### Optional requirements:
-- Communication with servcer should be implemented by using Event emmitter pattern
+- Communication with server should be implemented by using Event emmitter pattern
