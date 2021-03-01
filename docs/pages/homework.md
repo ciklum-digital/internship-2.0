@@ -54,7 +54,7 @@ At this moment, you have an application that can interact with the backend. You 
 ### Requirements
 - Use class for interaction with the backend
 - Should create only one instance  of this class
-- Events creation should be implementing using Abstract Method
+- Should be all possible error in API processed via a decorator approach
 
 ### Optional requirements:
-- Should be all possible error in API processed via a decorator approach
+- Communication with servcer should be implemented by using Event emmitter pattern
