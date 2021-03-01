@@ -48,3 +48,13 @@ API endpoints have next parameters:
  - Please use async/await for handling API responses
  - Store users in API (create separate *entity* called 'users' and retrieve them via GET method)
 
+## Homework 3
+At this moment, you have an application that can interact with the backend. You need to improve code and use patterns such as Singleton, Factory Method, and optional Decorator.
+
+### Requirements
+- Use class for interaction with the backend
+- Should create only one instance  of this class
+- Events creation should be implementing using Abstract Method
+
+### Optional requirements:
+- Should be all possible error in API processed via a decorator approach
