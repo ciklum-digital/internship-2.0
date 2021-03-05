@@ -63,7 +63,6 @@ At this moment, you have an application that can interact with the backend. You 
 In this homework you have to enhance your project with development tools. 
 
 ### Requirements
-
 - Add ESLint to your project. It should use `eslint-config-airbnb`
 - Add and setup Jest. Create unit tests for business logic CRUD operations and Event creation form (at least 5 tests)
 - Add Webpack to your project. It should use loaders for *.js, *.scss files and add plugins that minified your javascript code
