@@ -58,3 +58,17 @@ At this moment, you have an application that can interact with the backend. You 
 
 ### Optional requirements:
 - Communication with server should be implemented by using Event emmitter pattern
+
+## Homework 4
+In this homework you have to enhance your project with development tools. 
+
+### Requirements
+
+- Add ESLint to your project. It should use `eslint-config-airbnb`
+- Add and setup Jest. Create unit tests for business logic CRUD operations and Event creation form (at least 5 tests)
+- Add Webpack to your project. It should use loaders for *.js, *.scss files and add plugins that minified your javascript code
+- Describe application launch process and commands that you have in README.md
+
+### Optional requirements:
+- Add Prettier
+- Add stylelint
