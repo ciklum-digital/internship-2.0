@@ -71,3 +71,15 @@ In this homework you have to enhance your project with development tools.
 ### Optional requirements:
 - Add Prettier
 - Add stylelint
+
+## Homework 5
+In this homework, you have to migrate your project to React.
+
+### Requirements
+- Create a new repository for React project
+- Setup React boilerplate via [CRA](https://create-react-app.dev)
+- Transfer Calendar page functionality from your Vanilla JS to React
+- Use functional components
+
+### Optional requirements:
+- Add ESLint
