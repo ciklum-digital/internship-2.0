@@ -83,3 +83,17 @@ In this homework, you have to migrate your project to React.
 
 ### Optional requirements:
 - Add ESLint
+
+## Homework 6
+This homework based on Homework 5. Now you have to migrate other parts of your meeting-app to React.
+
+### Requirements
+- Migrate Create Event modal/page to react functional component
+- New event-form should be implemented via native forms functionality (3-rd party libraries forbidden)
+- Validation should be synchronous for each field in the form
+- For the main page use corresponding hooks to be able to fetch the data from API
+- Current User functionality should be implemented via React Context API
+- Use functional components
+
+### Optional requirements:
+- For those who has d’n’d functionality rewrite it with [ReactDnD](https://react-dnd.github.io/react-dnd/docs/api/hooks-overview) library
