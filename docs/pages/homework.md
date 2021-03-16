@@ -97,3 +97,15 @@ This homework based on Homework 5. Now you have to migrate other parts of your m
 
 ### Optional requirements:
 - For those who has d’n’d functionality rewrite it with [ReactDnD](https://react-dnd.github.io/react-dnd/docs/api/hooks-overview) library
+
+## Homework 7
+In this homework you have to add state management in your application.
+
+### Requirements
+- Add Redux to your project (`redux`, `react-redux`)
+- Add thunks to your project (`redux-thunk`)
+- Use Redux for manipulation data from backend and for the things you see fit in your app
+- All business functionality of your application should works
+
+### Optional requirements:
+- Add logic for visibility of events for users. Users can see only events assigned to them (without possibility to filter). Admins can see all events, create and edit events, filter by users.
