@@ -39,7 +39,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 
 ## Arch notes
 #### Validation
-- `username`: required, email validation rule;
+- `username`: required, minLength: 4, maxLength: 16;
     - errorMessage: 'Username is not valid'
 - `count`: user can add only available count of books to the cart
 
