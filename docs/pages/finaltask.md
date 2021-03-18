@@ -4,7 +4,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 
 ## Objectives
 - Create a JS Band Store application. Which includes next functionality:
-    - User can log in with email and password;
+    - User can log in with username;
     - Browse books catalog;
     - Search book by **title**;
     - Filter book by **price** (dropdown options: 0 < price < 25, 25 < price < 50, price > 50);
@@ -29,8 +29,8 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 ## Scenarios
 1. **User** goes to the `JS Band store` website;
 2. If **User** unauthorized **System** redirects the user to the **Login** page (That's the only page available for unauthorized user);
-3. **User** login with email and password, **System** redirects User to the **Book catalog** and store token in LocalStorage and Application State;
-4. **User** see the list of books (provided by Firebase); Search by book name, filter list by the price;
+3. **User** login with username, **System** return user token (API provide token), redirects User to the **Book catalog** and store token in LocalStorage and Application State;
+4. **User** see the list of books (provided by Api); Search by book name, filter list by the price;
 5. **User** navigate to the specific **Book details** clicking on `View` button;
 6. **User** choose the needed count of books, sees the total price, and adds the book to the cart. Then **User** can navigate back to the catalog or go forward to the **Cart**;
 7. **User** goes to the **Cart**, see order list and press 'Purchase' button;
@@ -39,10 +39,8 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 
 ## Arch notes
 #### Validation
-- `email`: required, email validation rule;
-    - errorMessage: 'Email is not valid'
-- `password`: required, minLength: 4, maxLength: 16;
-    - errorMessage: 'Password is not valid'
+- `username`: required, email validation rule;
+    - errorMessage: 'Username is not valid'
 - `count`: user can add only available count of books to the cart
 
 
@@ -65,12 +63,115 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 - Purchase complete screen with modal:
   ![Purchase complete screen / Cart empty state](../assets/images/finaltask/purchase_complete_screen.png)
 
+#### API
+
+1. `POST` [https://js-band-api.glitch.me/signin](https://js-band-api.glitch.me/signin)
+
+```js
+// request
+{
+  "username": "String" // minLength: 4, maxLength: 16
+}
+
+// response
+{
+  "username": "String",
+  "avatar": "String",
+  "token": "String"
+}
+```
+
+2. `GET` [https://js-band-api.glitch.me/books](https://js-band-api.glitch.me/books)
+
+```js
+// header
+{
+  "Authorization": "Bearer {token}"
+}
+
+// response
+// success
+"statusCode": 200,
+"data": {
+  "books": [
+     {
+       "id": "String",
+       "count": "Number",
+       "price": "Number",
+       "title": "String",
+       "author": "String",
+       "level": "String",
+       "description": "String",
+       "cover": "String",
+       "tags": ["String"]
+     },
+  ]
+}
+// failure
+"statusCode": 401,
+"data": { "message": "Unauthorized" }
+```
+
+3. `GET` [https://js-band-api.glitch.me/books/:id](https://js-band-api.glitch.me/books/:id)
+
+```js
+// header
+{
+  "Authorization": "Bearer {token}"
+}
+
+// response
+// success
+"statusCode": 200,
+"data": {
+   "id": "String",
+   "count": "Number",
+   "price": "Number",
+   "title": "String",
+   "author": "String",
+   "level": "String",
+   "description": "String",
+   "cover": "String",
+   "tags": ["String"]
+ }
+
+// failure
+"statusCode": 401,
+"data": { "message": "Unauthorized" }
+```
+
+4. `POST` [https://js-band-api.glitch.me/purchase](https://js-band-api.glitch.me/purchase)
+
+```js
+// header
+{
+  "Authorization": "Bearer {token}"
+}
+
+// request
+{ 
+  "books": ["String"]
+}
+
+// response
+// success
+"statusCode": 200,
+"data": { "message": "Thank you for purchasing books in our store!" }
+
+// failure
+"statusCode": 400,
+"data": { "message": "Please provide list of ids in format: { books: [...] }" }
+
+"statusCode": 401,
+"data": { "message": "Unauthorized" }
+```
+
 ## Acceptance criteria
 
 - All listed functionality should be provided and work;
 - `React` should be used for task implementation;
 - `Redux` should be used as a state management ;
-- Only own created components should be used;  
+- Only own created components should be used (you may use only styles from 3rd party libraries such as Bootstrap, etc...);  
 - Only functional react components should be used;
 - Components should be placed in separated files (don't forget about modularity);
 - Code should be linted with `eslint-config-airbnb`;
