@@ -19,10 +19,8 @@ You have a new client, it’s **“JS Band”** internship company. They want to
     - `eslint-config-airbnb` config for ESLint;
     - `Github pages`;
     - `Github project`.
-- For testing, you should use `Jest`: 
-    - test coverage of your project should be at least 50%;
-- For running eslint and test you should use pre-commit hooks:
-    - use `Husky` for using pre-commit hooks;
+- You should cover your code with unit tests. For testing, you should use `Jest`; 
+- For running eslint and test you should use pre-commit hooks;
 - Yours web-application fields validation should be based on **Validation** provided in the **Arch notes** section;
 - Yours web-application should be based on **Wireframes** provided in the **Arch notes** section;
 
