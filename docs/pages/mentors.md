@@ -29,7 +29,7 @@
   <li class="mentor">
     <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/bost.jpg" alt="Borys Strynzha" /></div>
     <h3 class="mentor__name">Borys Strynzha</h3>  
-    <p class="mentor__desc">Senior JavaScript Developer</p>
+    <p class="mentor__desc">Javascript Technical Lead</p>
   </li>
   <li class="mentor">
     <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/vpos.jpg" alt="Vasyl Posmitnyi" /></div>
@@ -46,4 +46,9 @@
     <h3 class="mentor__name">Anton Kozachko</h3>  
     <p class="mentor__desc">Senior JavaScript Developer</p>
   </li>
+  <li class="mentor">
+      <div class="mentor__img"><img src="https://raw.githubusercontent.com/ciklum-digital/internship-2.0/main/docs/assets/images/mentors/dvad.png" alt="Denis Vada" /></div>
+      <h3 class="mentor__name">Denis Vada</h3>  
+      <p class="mentor__desc">Senior JavaScript Developer</p>
+    </li>
 </ul>
