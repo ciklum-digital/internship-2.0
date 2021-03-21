@@ -63,7 +63,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 
 #### API
 
-1. `POST` [https://js-band-api.glitch.me/signin](https://js-band-api.glitch.me/signin)
+1. `POST` [https://js-band-store-api.glitch.me/signin](https://js-band-api.glitch.me/signin)
 
 ```js
 // request
@@ -79,7 +79,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 }
 ```
 
-2. `GET` [https://js-band-api.glitch.me/books](https://js-band-api.glitch.me/books)
+2. `GET` [https://js-band-store-api.glitch.me/books](https://js-band-api.glitch.me/books)
 
 ```js
 // header
@@ -110,7 +110,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 "data": { "message": "Unauthorized" }
 ```
 
-3. `GET` [https://js-band-api.glitch.me/books/:id](https://js-band-api.glitch.me/books/:id)
+3. `GET` [https://js-band-store-api.glitch.me/books/:id](https://js-band-api.glitch.me/books/:id)
 
 ```js
 // header
@@ -138,7 +138,7 @@ You have a new client, it’s **“JS Band”** internship company. They want to
 "data": { "message": "Unauthorized" }
 ```
 
-4. `POST` [https://js-band-api.glitch.me/purchase](https://js-band-api.glitch.me/purchase)
+4. `POST` [https://js-band-store-api.glitch.me/purchase](https://js-band-api.glitch.me/purchase)
 
 ```js
 // header
